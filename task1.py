@@ -11,13 +11,15 @@
 * in which your solution might not work.
 *
 * Use main() function to test your solution.
-===================================================
+======================================================
 """
 
-
 def sum_digits(number):
-
-
+    num_str = str(number)
+    sum = 0
+    for i in range(0, len(num_str)):
+        sum += int(num_str[i])
+    return sum
 
 
 def main():
